@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+/* html */
+html {
+    scroll-behavior: smooth;
+}
+/* general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+/* container */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+/* list */
+ul li {
+    list-style: none;
+}
+/* link */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/* margin top */
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+.mt-50 {
+    margin-top: 50px;
+}
+.mt-60 {
+    margin-top: 60px;
+}
+.mt-70 {
+    margin-top: 70px;
+}
+.mt-80 {
+    margin-top: 80px;
+}
+.mt-90 {
+    margin-top: 90px;
+}
+.mt-100 {
+    margin-top: 100px;
+}
+/* padding top */
+.pt-10 {
+    padding-top: 10px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+.pt-30 {
+    padding-top: 30px;
+}
+.pt-40 {
+    padding-top: 40px;
+}
+.pt-50 {
+    padding-top: 50px;
+}
+.pt-60 {
+    padding-top: 60px;
+}
+.pt-70 {
+    padding-top: 70px;
+}
+.pt-80 {
+    padding-top: 80px;
+}
+.pt-90 {
+    padding-top: 90px;
+}
+.pt-100 {
+    padding-top: 100px;
+}
+/* center */
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* start */
+.start {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+body {
+    background-color: #87CEFA;
+}
